@@ -1,0 +1,15 @@
+2024-08-31 13:35:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(? [*]?)"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO book(name, imageUrl) values(? ?) [42001-214]
+2024-08-31 13:49:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values (? [*]?)"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO book(name, imageUrl) values (? ?) [42001-214]
+2024-08-31 15:03:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SRELECT * FROM book WHERE id = ?"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SRELECT * FROM book WHERE id = ? [42001-214]
+2024-08-31 15:04:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SRELECT * FROM book WHERE id = ?"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SRELECT * FROM book WHERE id = ? [42001-214]
+2024-08-31 15:10:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SRELECT * FROM book WHERE id = ?"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SRELECT * FROM book WHERE id = ? [42001-214]
